@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="server_url" translatable="false">https://dev.ninetynine.com/testapi/1/</string>
+
+</resources>

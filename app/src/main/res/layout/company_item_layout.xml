@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_padding">
+
+    <TextView
+        android:id="@+id/companyRIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CompanyRIC"
+        tools:text="Google" />
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintTop_toBottomOf="@id/companyRIC"
+        tools:text="Google Inc." />
+
+    <TextView
+        android:id="@+id/companySharePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CompanySharePrice"
+        app:layout_constraintBottom_toBottomOf="@id/companyName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/companyRIC"
+        tools:text="$15.24" />
+
+</android.support.constraint.ConstraintLayout>
