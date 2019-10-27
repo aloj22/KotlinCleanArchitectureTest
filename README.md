@@ -1,7 +1,4 @@
-# NinetyNineTest
-
-This project was developed as a solution for [NinetyNine test](https://github.com/99markets/challenges/blob/master/mobile.md). It is written using kotlin and based on Clean Architecture.
-
+# Kotlin CleanArchitecture test
 
 ## Architecture
 ![alt text](https://i.imgur.com/GSilkxa.png)
